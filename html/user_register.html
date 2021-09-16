@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>User Register Page</title>
+	<link rel="stylesheet" type="text/css" href="C:\Users\sneha.annadurai\Documents\healthy\css\user_register_style.css">
+	<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script type="text/javascript">
+		function validate(){
+		  var name = document.getElementById("name");
+		  var email = document.getElementById("email");
+		  var password = document.getElementById("phone");
+		  var password = document.getElementById("password");
+		  var password = document.getElementById("address");
+	  
+		  if (password.value.length >= 1 && password.value.length <= 6) {
+			  alert("password must be longer than 6 characters");
+			  return false;
+		  }
+
+		  if (phone.value.length >=1 && phone.value.length <= 9) {
+			  alert("invalid phone number");
+			  return false;
+		  }
+
+		  if (name.value.length >= 1 && name.value.length < 4) {
+			  alert("enter full name");
+			  return false;
+		  }
+
+		  if (address.value.length >= 1 &&address.value.length < 4) {
+			  alert("enter valid address");
+			  return false;
+		  }
+	  
+		  if (password.value.length >= 20) {
+			  alert("password must be less than 20 characters");
+			  return false;
+		  }
+	  
+		  if(email.value =="" || password.value=="" || address.value=="" || name.value=="" || phone.value=="")
+		  {
+			alert("Enter Credentials");
+			return false;
+		  }
+	  
+		  else {
+			return true;
+		  }
+		}
+		</script>
+</head>
+
+<body>
+	<div class="center">
+		<div class="header">Registration Form</div>
+		<form onsubmit="return validate()" action="/signup" method="POST">
+		<!-- <form action="/sign_up" method="POST"></form> -->
+			<input type="text" id="name" name="name" placeholder ="Name"><br><br>
+			<input type="email" id="email" name="email" placeholder ="Mailid"><br><br>
+			<input type="password" id="password" name="password" placeholder ="Password"><br><br>
+			<input type="text" id="phone" name="phno" placeholder ="Mobile Number"><br><br>
+			<input type="address" id="address" name="address" placeholder ="Address"><br><br>
+			<div class="login">
+			<a href="buyer_home_page.html">
+			<button margin="margin: 9px" type="submit" class="btn signin-btn btn-lg">Register</button><br>
+			</a>
+			</div>
+			<a href="#" class="nolink">forgot password</a><br><br>
+			<div class="option-2">
+          		<span style="margin-right: 150px;"><a href="buyer_login.html" class="nolink">Already User?</a></span>
+          		<span><a href="index.html" class="nolink">Home Page</a></span>
+        	</div>
+		</form>
+	</div>
+</body>
+</html>
