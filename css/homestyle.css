@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    color: darkolivegreen;
+    font-family: 'Lobster', cursive;
+}
+
+.navbar-brand:hover{
+    color: rgb(14, 54, 28);
+}
+
+.nav-link{
+    margin-top: 2px;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: darkolivegreen;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.nav-link:hover{
+    background: rgb(14, 54, 28);
+	  color: white;
+}
+
+.search{
+    height: 40px;
+    width: 100%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -30px;
+    border: 2px solid olive;
+}
+
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: olive;
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+
+.main{
+    background: url(C:/Users/sneha.annadurai/Documents/healthy/img/uncooked-different-rice-bowls-placemat-wooden-background.jpg)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: 50% 50%;
+}
+
+.card{
+    margin: 5%;
+    margin-top: 20%;
+    border-radius: 12px;
+}
+
+.btn2{
+    padding: 5px;
+    height: 40px;
+    outline: none;
+    border: none;
+    background:darkolivegreen;
+    color: white;
+    font-weight: 500;
+    border-radius: 60px;
+    text-decoration: none;
+}
+
+.btn2:hover{
+    color:olive;
+}
+
+.card-body{
+    padding: 10%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+h5{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.card-text{
+    font-size: 25px;
+}
+
+h6.modal-title {
+    margin-left: 40%;
+    font-weight: bold;
+  }
+
+.btn1{
+background: darkolivegreen;
+color: white;
+border-color: darkolivegreen;
+border-radius: 50px;
+}
+
+.btn3{
+    border-radius: 50px;
+}
+
+#about{
+  background-color: rgb(204, 231, 167);
+}
+
+#about h8{
+ font-size: 50px;
+ font-weight: 300px;
+ font-family: 'Rubik', sans-serif;
+ text-align: center;
+}
+
+#about p{
+  font-size: 20px;
+  font-family: 'Rubik', sans-serif;
+  text-align: justify;
+ }
+
+.footer h7 {
+  font-size: 30px;
+  font-weight: bold;
+}
+  
+  .facebook {
+    text-decoration: none;
+    color: #3b5998;
+    font-size: 40px;
+  }
+  
+  .facebook:hover{
+    color: white;
+  }
+
+  .twitter {
+    text-decoration: none;
+    color: rgb(54, 153, 185);
+    font-size: 40px;
+  }
+
+  .twitter:hover{
+    color: white;
+  }
+  
+  .instagram {
+    text-decoration: none;
+    color: #d60c6a;
+    font-size: 40px;
+  }
+
+  .instagram:hover{
+    color: white;
+  }
+
+  .alert1{
+    background: rgb(204, 231, 167);
+  }
+   
+
+
+
+

@@ -1,0 +1,61 @@
+body.sigin-body {
+	background-image: url(C:/Users/sneha.annadurai/Documents/healthy/img/green-plants-in-farm_1366x768_47905.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: white;
+	/* opacity: 80%; */
+  }
+  
+  .container.signin-container {
+	margin-top: 8%;
+  }
+  
+  .card.signin-card {
+	padding: 40px 0px 20px;
+	background-color: white;
+	border-radius: 15px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+	-webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+	-moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+  }
+  
+  img.signin-img {
+	padding: 0 2rem 2rem;
+	margin: auto;
+	display: block;
+  }
+  
+  /* h7 {
+	font-size: 2rem;
+    color: darkolivegreen;
+    font-family: 'Lobster', cursive;
+	margin:auto;
+  } */
+  
+  form.sigin-form {
+	max-width: 350px;
+	margin: auto;
+	font-family: 'Rubik', sans-serif;
+  }
+
+  .create-new-account{
+	  text-decoration: none;
+	  color: darkolivegreen;
+	  margin: auto;
+	  font-weight: 500;
+  }
+
+  .create-new-account:hover{
+	  color: black;
+  }
+  
+  button.signin-btn {
+	color: #ffffff;
+	background-color: darkolivegreen;
+	width: 100%;
+	margin-bottom: 1.2rem;
+  }
+  
+  
+  

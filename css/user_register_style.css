@@ -1,0 +1,57 @@
+
+body{
+	background-image: url(C:/Users/sneha.annadurai/Documents/healthy/img/image1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	overflow: hidden;
+	font-family: 'Fredoka One', cursive;
+}
+.center{
+	width: 400px;
+	margin: 100px 800px;
+	position: relative;
+}
+
+.nolink{
+	text-decoration: none;
+	color: black;
+	font-size: 15px;
+}
+
+.center .header{
+	font-size: 28px;
+	font-weight: bold;
+	padding: 25px 0 30px 25px;
+	color: black;
+	padding: 25px 0 30px 25px;
+	background: brown;
+	border-bottom: 1px solid brown;
+	border-radius: 5px 5px 0 0;
+}
+.center form{
+	position: absolute;
+	background: #808000;
+	width: 100%;
+	padding: 50px 10px 0 30px;
+	box-sizing: border-box;
+	border: 1px solid brown;
+	border-radius: 0 0 5px 5px;
+}
+form input{
+	height: 40px;
+	width: 90%;
+	padding: 10px;
+	border-radius: 3px;
+	border: 1px solid silver;
+	font-size: 18px;
+	outline: none;
+}
+.btn{
+	display: inline;}
+.option-2{
+	padding: 10px;
+	display: inline;
+}
